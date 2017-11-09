@@ -1,1 +1,1 @@
-Calendar Project.
+Calendar Project
