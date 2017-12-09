@@ -3,6 +3,7 @@ package com.company;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*
 Planit Group Project:
 Buban Ndeta
@@ -28,6 +29,8 @@ class WriteToFile {
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 /**
  * Created by adakuuchendu on 12/5/17.
  */
@@ -41,6 +44,9 @@ public class WriteToFile {
         File userFolder = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -53,7 +59,11 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         File tempFile = new File("c:\\PlanIt\\Users\\00.txt");
+=======
+        File tempFile = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users/00.txt");
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         File tempFile = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users/00.txt");
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -71,6 +81,7 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     //Create new user file
     public void createUserFile(String fileName, String password, String name) {
         File newUser = new File("C:\\PlanIt\\Users\\" + fileName + ".txt");
@@ -83,6 +94,8 @@ public class WriteToFile {
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 
     //Create new user file
     public void createUserFile(String fileName, String password, String name) {
@@ -91,6 +104,9 @@ public class WriteToFile {
             newUser.createNewFile();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -106,11 +122,14 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             } catch (IOException a) {
             }
             System.out.println("New user created. LoginID: " + fileName + " Password: " + password);
         } catch (IOException a) {
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -123,6 +142,9 @@ public class WriteToFile {
         catch (IOException a) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -155,7 +177,11 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         File tempFile = new File("c:\\PlanIt\\Users\\00.txt");
+=======
+        File tempFile = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users/00.txt");
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         File tempFile = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users/00.txt");
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -186,9 +212,15 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 } catch (StringIndexOutOfBoundsException a) {
                     tempOut.append(line);
                     tempOut.newLine();
+=======
+                }
+                catch (StringIndexOutOfBoundsException a) {
+
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                 }
                 catch (StringIndexOutOfBoundsException a) {
@@ -211,7 +243,12 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (IOException a) {
+=======
+        }
+        catch (IOException a) {
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         }
         catch (IOException a) {
@@ -235,6 +272,7 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 try {
                     if ((line.substring(0, 9)).equals("Password:")) {
                         originalFile.append("Password: " + newPassword);
@@ -251,6 +289,8 @@ public class WriteToFile {
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
                 if ((line.substring(0, 9)).equals("Password:")) {
                     originalFile.append("Password: " + newPassword);
                     originalFile.newLine();
@@ -259,6 +299,9 @@ public class WriteToFile {
                 else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -272,11 +315,14 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (IOException a) {
             System.out.println("Error overwriting old file.");
 
         } catch (java.lang.NullPointerException a) {
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -288,6 +334,9 @@ public class WriteToFile {
         catch (java.lang.NullPointerException a) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -302,7 +351,11 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         File userFile = new File("C:\\PlanIt\\Users\\" + user + "a.txt");
+=======
+        File userFile = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users/" + user + ".txt");
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         File userFile = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users/" + user + ".txt");
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -322,7 +375,11 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         File tempFile = new File("c:\\PlanIt\\Users\\00.txt");
+=======
+        File tempFile = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users/00.txt");
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         File tempFile = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users/00.txt");
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -347,7 +404,12 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (IOException a) {
+=======
+        }
+        catch (IOException a) {
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         }
         catch (IOException a) {
@@ -376,10 +438,13 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (IOException a) {
             System.out.println("Error overwriting old file.");
         } catch (java.lang.NullPointerException a) {
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -391,6 +456,9 @@ public class WriteToFile {
         catch (java.lang.NullPointerException a) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -406,8 +474,13 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         File zeroFile = new File("c:\\PlanIt\\Users\\00.txt");
         File userFile = new File("C:\\PlanIt\\Users\\" + user + ".txt");
+=======
+        File zeroFile = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users/00.txt");
+        File userFile = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users/" + user + ".txt");
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         File zeroFile = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users/00.txt");
         File userFile = new File("/Users/adakuuchendu/Dropbox/PlanIt/Users/" + user + ".txt");
@@ -429,6 +502,7 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             while ((line = tempReader.readLine()) != null) {
                 //If target is found, do not copy it into the temp file
                 try {
@@ -445,6 +519,8 @@ public class WriteToFile {
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
             tempReader.readLine();
             tempReader.readLine();
             tempReader.readLine();
@@ -456,6 +532,9 @@ public class WriteToFile {
                 else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -469,7 +548,12 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (IOException a) {
+=======
+        }
+        catch (IOException a) {
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         }
         catch (IOException a) {
@@ -498,10 +582,13 @@ public class WriteToFile {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (IOException a) {
             System.out.println("Error overwriting old file.");
         } catch (java.lang.NullPointerException a) {
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -513,6 +600,9 @@ public class WriteToFile {
         catch (java.lang.NullPointerException a) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29

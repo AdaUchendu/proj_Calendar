@@ -3,6 +3,7 @@ package com.company;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*Adaku Uchendu
   Buban Ndeta
   Steven Sommers
@@ -22,6 +23,8 @@ import java.io.*;
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 /**
  * Created by adakuuchendu on 12/5/17.
  */
@@ -29,6 +32,9 @@ import java.io.*;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -47,7 +53,11 @@ abstract class SearchCalendar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Search extends SearchCalendar {
+=======
+public class Search extends SearchCalendar {
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 public class Search extends SearchCalendar {
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -66,7 +76,12 @@ public class Search extends SearchCalendar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else {
+=======
+        }
+        else {
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         }
         else {
@@ -96,11 +111,14 @@ public class Search extends SearchCalendar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (FileNotFoundException a) {
             System.out.println("Error obtaining user name.");
             return "Null";
         } catch (IOException a) {
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -113,6 +131,9 @@ public class Search extends SearchCalendar {
         catch (IOException a) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -129,7 +150,11 @@ public class Search extends SearchCalendar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         File searchFile = new File("c:\\PlanIt\\Users\\" + fileName + "a" + ".txt");
+=======
+        File searchFile = new File("c:\\PlanIt\\Users\\" + fileName + ".txt");
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         File searchFile = new File("c:\\PlanIt\\Users\\" + fileName + ".txt");
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -159,6 +184,7 @@ public class Search extends SearchCalendar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 ":" + minutes + ampm + ".");
                     } else if (foundMilitaryTime == 0) {
                         foundMilitaryTime = foundMilitaryTime + 12;
@@ -184,6 +210,8 @@ public class Search extends SearchCalendar {
             }
         } catch (IOException a) {
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -223,6 +251,9 @@ public class Search extends SearchCalendar {
         catch (IOException a) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -245,7 +276,11 @@ public class Search extends SearchCalendar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         File searchFile = new File("c:\\PlanIt\\Users\\" + fileName + "a.txt");
+=======
+        File searchFile = new File("c:\\PlanIt\\Users\\" + fileName + ".txt");
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         File searchFile = new File("c:\\PlanIt\\Users\\" + fileName + ".txt");
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -263,6 +298,12 @@ public class Search extends SearchCalendar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            line = tempReader.readLine();
+            line = tempReader.readLine();
+            line = tempReader.readLine();
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
             line = tempReader.readLine();
             line = tempReader.readLine();
@@ -286,7 +327,11 @@ public class Search extends SearchCalendar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     int userEnd = line.lastIndexOf("*");
+=======
+                    int userEnd = line.lastIndexOf("#");
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                     int userEnd = line.lastIndexOf("#");
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -306,6 +351,7 @@ public class Search extends SearchCalendar {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 ":" + minutes + ampm + ".");
                     } else if (foundMilitaryTime == 0) {
                         foundMilitaryTime = foundMilitaryTime + 12;
@@ -317,6 +363,8 @@ public class Search extends SearchCalendar {
                         System.out.println("Appointment found on " + line.substring(0, 10) + " at " + foundMilitaryTime +
                                 ":" + minutes + ampm + ".");
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -335,6 +383,9 @@ public class Search extends SearchCalendar {
                                 ":" + minutes + ampm + ". USer attached: " + line.substring(userStart, userEnd) + ".");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -344,6 +395,7 @@ public class Search extends SearchCalendar {
                     try {
                         String foundNote = line.substring(userEnd + 1);
                         if (foundNote.equals("")) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,6 +409,8 @@ public class Search extends SearchCalendar {
             }
         } catch (IOException a) {
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -379,6 +433,9 @@ public class Search extends SearchCalendar {
         catch (IOException a) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29

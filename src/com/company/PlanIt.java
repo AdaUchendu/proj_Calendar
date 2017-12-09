@@ -3,6 +3,7 @@ package com.company;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*Team Planit:
    Adaku Uchendu
    Buban Ndeta
@@ -21,6 +22,8 @@ import java.io.*;
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 /**
  * Created by adakuuchendu on 12/5/17.
  */
@@ -31,6 +34,9 @@ import java.io.*;
 import java.util.Calendar;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -68,7 +74,11 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 System.out.print("\nEnter LoginID: " );
+=======
+                System.out.print("\nEnter LoginID: ");
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                 System.out.print("\nEnter LoginID: ");
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -109,7 +119,11 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }while (failed); //END OF LOGIN ATTEMPT LOOP
+=======
+            } while (failed); //END OF LOGIN ATTEMPT LOOP
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
             } while (failed); //END OF LOGIN ATTEMPT LOOP
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -128,10 +142,16 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             do {
                 //Display main menu
                 ArrayList<java.lang.String> myList = new ArrayList<String>();
+=======
+            do {
+                //Display main menu
+                ArrayList<String> myList = new ArrayList<String>();
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
             do {
                 //Display main menu
@@ -156,7 +176,12 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 myList.add(("\n6. Log off"));;
+=======
+                myList.add(("\n6. Log off:"));
+                ;
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                 myList.add(("\n6. Log off:"));
                 ;
@@ -178,7 +203,11 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     int choice	 = input.nextInt();
+=======
+                    int choice = input.nextInt();
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                     int choice = input.nextInt();
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -196,10 +225,16 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                         //APPOINTMENT MENU
                         case 1:
                             if (choice == 1){
+=======
+                        //APPOINTMENT MENU
+                        case 1:
+                            if (choice == 1) {
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                         //APPOINTMENT MENU
                         case 1:
@@ -243,7 +278,12 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             }break;
+=======
+                            }
+                            break;
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                             }
                             break;
@@ -300,7 +340,11 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             newTime = newTime.replaceAll("\\s+","");
+=======
+                                            newTime = newTime.replaceAll("\\s+", "");
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                                             newTime = newTime.replaceAll("\\s+", "");
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -317,8 +361,12 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             }
                                             else if (verifyInput.checkTime(newTime)) {
+=======
+                                            } else if (verifyInput.checkTime(newTime)) {
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                                             } else if (verifyInput.checkTime(newTime)) {
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -350,7 +398,12 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                                 newAppointment.setValid(false); break;
+=======
+                                                                newAppointment.setValid(false);
+                                                                break;
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                                                                 newAppointment.setValid(false);
                                                                 break;
@@ -404,7 +457,11 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         }while (timeLoop);
+=======
+                                        } while (timeLoop);
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                                         } while (timeLoop);
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -423,7 +480,12 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             }while (newLoop); break;
+=======
+                            } while (newLoop);
+                            break;
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                             } while (newLoop);
                             break;
@@ -487,7 +549,11 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             newTime = newTime.replaceAll("\\s+","");
+=======
+                                            newTime = newTime.replaceAll("\\s+", "");
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                                             newTime = newTime.replaceAll("\\s+", "");
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -504,8 +570,12 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             }
                                             else if (verifyInput.checkTime(newTime)) {
+=======
+                                            } else if (verifyInput.checkTime(newTime)) {
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                                             } else if (verifyInput.checkTime(newTime)) {
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -523,8 +593,12 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 }
                                                 else {
+=======
+                                                } else {
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                                                 } else {
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -574,7 +648,11 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             }while (deleteLoop);
+=======
+                            } while (deleteLoop);
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                             } while (deleteLoop);
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -591,7 +669,11 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             System.out.println("\nDo you wish to generate a new password? (Y/N):");
+=======
+                            System.out.println("\nDo you wish to generate a new password? (Y/N)");
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
                             System.out.println("\nDo you wish to generate a new password? (Y/N)");
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -667,8 +749,13 @@ public class PlanIt {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }while (mainMenu); //END OF MAIN MENU LOOP
         }while (true); //END OF LOGIN LOOP
+=======
+            } while (mainMenu); //END OF MAIN MENU LOOP
+        } while (true); //END OF LOGIN LOOP
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
             } while (mainMenu); //END OF MAIN MENU LOOP
         } while (true); //END OF LOGIN LOOP

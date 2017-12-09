@@ -3,6 +3,7 @@ package com.company;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*Adaku Uchendu
    Buban Ndeta
    Steven Sommers
@@ -23,6 +24,8 @@ package com.company;
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 /**
  * Created by adakuuchendu on 12/5/17.
  */
@@ -31,6 +34,9 @@ package com.company;
  interface userInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -47,7 +53,11 @@ package com.company;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class User implements userInterface {
+=======
+ class User implements userInterface{
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
  class User implements userInterface{
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -68,6 +78,10 @@ class User implements userInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -92,7 +106,10 @@ class User implements userInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -140,6 +157,9 @@ public class Users2 {
 >>>>>>> dc46129930bba6724094bea59ee01ade177b109d
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29

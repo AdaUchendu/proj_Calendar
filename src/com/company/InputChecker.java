@@ -3,6 +3,7 @@ package com.company;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Team Planit:
    Adaku Uchendu
    Buban Ndeta
@@ -24,6 +25,10 @@ package com.company;
 /**
  * Created by adakuuchendu on 12/5/17.
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
+/**
+ * Created by adakuuchendu on 12/5/17.
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
  */
 
 
@@ -31,6 +36,10 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -47,6 +56,10 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -63,11 +76,14 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else {
             return false;
         }
     }
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -80,6 +96,9 @@ class InputChecker {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -93,10 +112,13 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else if (upper.equals("N")) {
             return false;
         } else {
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -108,6 +130,9 @@ class InputChecker {
         else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -120,6 +145,10 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -146,12 +175,15 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 } else {
                     write.createUserFile(temp, password, name);
                     break;
                 }
             } else {
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -165,6 +197,9 @@ class InputChecker {
             else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -178,6 +213,10 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -206,11 +245,14 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 } else {
                     break;
                 }
             } else {
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -223,6 +265,9 @@ class InputChecker {
             else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -241,11 +286,14 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else {
             return false;
         }
     }
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -258,6 +306,9 @@ class InputChecker {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -272,11 +323,14 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else {
             return false;
         }
     }
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -290,6 +344,9 @@ class InputChecker {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -304,7 +361,12 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else if (newTime.length() == 7 && newTime.charAt(2) == ':' &&
+=======
+        }
+        else if (newTime.length() == 7 && newTime.charAt(2) == ':' &&
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         }
         else if (newTime.length() == 7 && newTime.charAt(2) == ':' &&
@@ -324,11 +386,14 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else {
             return false;
         }
     }
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -341,6 +406,9 @@ class InputChecker {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
@@ -360,7 +428,12 @@ class InputChecker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else {
+=======
+        }
+        else {
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
         }
         else {
@@ -380,6 +453,7 @@ class InputChecker {
     public String getMonthNumber(String month) {
         if (month.equals("JANUARY")) {
             return "01";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,6 +479,8 @@ class InputChecker {
             return "11";
         } else if (month.equals("DECEMBER")) {
 =======
+=======
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
@@ -443,6 +519,9 @@ class InputChecker {
         else if (month.equals("DECEMBER")) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
+=======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
 =======
 >>>>>>> 3ef4a9920bd6768d0a533ca2c727e6ab9b67af29
